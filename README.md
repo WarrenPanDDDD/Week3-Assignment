@@ -18,7 +18,7 @@ userStakes[msg.sender].startBlock != 0
 ```
 Then we payout the $MELON rewards by calling _payout()_. This is correct so far.
 
-But after that we store a new _UserStake_ with the new _stakeAmount_, without unstake the previous staking or add the previous staking $WATER to the new _UserStake_. Hence, user's previous staking is MISSING.
+But after that we store a new _UserStake_ with the new _stakeAmount_, without unstake the previous staking or add the previous staking $WATER to the new _UserStake_. Hence, user's previous staked $WATER is MISSING.
 
 My solution is, we should add the previous stakeAmount to the new stakeAmount
 ```
