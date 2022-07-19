@@ -29,4 +29,4 @@ Which means that user get the $MELON rewards with previous stake, and he want to
 
 3. We can consider shorten the log messages to save gas.
 
-4. We can consider simplify the calculation of fibonacci number using _fibResult> we defined in (1). But this will make _fib()_ no longer a view function. 
+4. We can consider simplify the calculation of fibonacci number using _fibResult_ mapping we defined in (1). But this will make _fib()_ no longer a view function. 
